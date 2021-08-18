@@ -10,7 +10,8 @@ const Home: NextPage = () => {
 };
 
 const Header = styled.h1`
-  font-family: ${(p) => p.theme.font.heading};
+  font-family: ${(p) => p.theme.FONTS.heading};
+  font-size: 2rem;
 `;
 
 export default Home;
